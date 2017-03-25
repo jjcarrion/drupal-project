@@ -17,7 +17,6 @@ class BrowserTest extends BrowserTestBase {
   public function testDrupalGet() {
 
     $this->drupalGet('user/register');
-    $this->assertTrue(FALSE);
     $this->assertSession()->pageTextContains('Create new account');
 
   }
