@@ -14,7 +14,7 @@ class BrowserTest extends BrowserTestBase {
   /**
    * Test drupal get.
    */
-  function testDrupalGet() {
+  public function testDrupalGet() {
 
     $this->drupalGet('user/register');
 
